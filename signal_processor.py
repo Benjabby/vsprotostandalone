@@ -305,7 +305,7 @@ class _SignalProcessor():
                 #k = np.dstack([pos_signals, all_signals[...,3:]])
                 #k2 = np.dstack([pos_signals, all_signals])
                 timeso = self.in_times[self.sig_idx:self.sig_idx+self.sig_len].copy()
-                print(f"{self.sig_idx}:{self.sig_idx+self.sig_len}")
+                # print(f"{self.sig_idx}:{self.sig_idx+self.sig_len}")
                 # self._print(f"All: {all_signals.shape}")
                 # Faces, Frames, Channels
                 self.HR_ready[:] = False
