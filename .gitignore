@@ -1,0 +1,9 @@
+build/
+dist/
+moveables/
+tmp/
+main.spec
+cudart64_110.dll
+msvcp140.dll
+*.pyc
+vs-demo/
